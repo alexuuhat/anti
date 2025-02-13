@@ -1,23 +1,23 @@
 # 🛡️ Anti-Malware Tool
 
 ## 📌 Overview
-This repository contains a custom-built **Anti-Malware** executable that helps clean your system by removing junk files and erasing malware. It requires administrator privileges to execute effectively.
+This repository contains two custom-built **Anti-Malware** executables that help clean your system by removing junk files and erasing malware. Both require administrator privileges to execute effectively.
 
 ## 🚀 Features
-- 🔹 **Garbage Cleanup**: Scans and deletes unnecessary junk files to free up space.
-- 🔹 **Malware Removal**: Detects and removes malicious files.
+- 🔹 **Garbage Cleanup (`Alex_tmpC.exe`)**: Scans and deletes unnecessary junk files to free up space.
+- 🔹 **Malware Removal (`Antimalware.exe`)**: Detects and removes malicious files.
 - 🔹 **Administrator Privilege Required**: Ensures full access for deep cleaning.
 - 🔹 **Manual Verification**: After execution, you can use **`Win + R` → `mrt`** for a final malware check.
 
 ## 🛠 How It Works
-1. **Collects & Deletes Garbage Files** 🗑️
-2. **Removes Malware from the System** 🦠
+1. **Run `Alex_tmpC.exe` as Administrator** 🗑️ (Right-click → `Run as administrator`) to clean junk files.
+2. **Run `Antimalware.exe` as Administrator** 🦠 to remove malware.
 3. **Final Manual Check using Windows Malicious Software Removal Tool (`mrt`)** 🔍
 
 ## ⚡ Usage Instructions
-1. **Download the executable** from this repository.
-2. **Run it as Administrator** (Right-click → `Run as administrator`).
-3. Let it **clean junk files** and **erase malware**.
+1. **Download `Alex_tmpC.exe` and `Antimalware.exe`** from this repository.
+2. **Run `Alex_tmpC.exe` first** (Right-click → `Run as administrator`) to clean junk files.
+3. **Next, run `Antimalware.exe`** (Right-click → `Run as administrator`) to remove malware.
 4. After completion, run `Win + R → mrt` for an extra malware check.
 
 ## ⚠ Disclaimer
